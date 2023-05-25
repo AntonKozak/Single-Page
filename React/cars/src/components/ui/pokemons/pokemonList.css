@@ -1,0 +1,27 @@
+.container-pokemon {
+  display: block;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+.pokemons-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.sub-title {   
+  font-size: 28px;
+  margin: 1.3rem;
+}
+
+.btn{
+    background: #c71616;
+    color: #fff;
+    height: 30px;
+    width: 180px;
+}
+.btn:hover {
+    background-color: #6e4949;
+}
